@@ -1,0 +1,11 @@
+{
+  "bot_token": "",
+  "target_user_id": 924192646119981076,
+  "timezone": "Asia/Seoul",
+  "reboot_check": {
+    "check_time": "09:00",
+    "threshold_days": 6
+  },
+  "ucheck_url": "https://ucheck.plus",
+  "pre_reminder_minutes": 0
+}

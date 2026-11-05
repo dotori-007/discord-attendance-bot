@@ -1,0 +1,15 @@
+[
+  { "id": "tue_01", "day": "tue", "time": "09:20", "subject": "데이터베이스", "period": null, "color": "0x3498DB" },
+  { "id": "tue_02", "day": "tue", "time": "13:20", "subject": "데이터통계학", "period": null, "color": "0x2ECC71" },
+  { "id": "wed_01", "day": "wed", "time": "09:20", "subject": "컴퓨터 네트워크", "period": "1차시", "color": "0x1ABC9C" },
+  { "id": "wed_02", "day": "wed", "time": "10:20", "subject": "컴퓨터 네트워크", "period": "2차시", "color": "0x1ABC9C" },
+  { "id": "wed_03", "day": "wed", "time": "11:20", "subject": "컴퓨터 네트워크", "period": "3차시", "color": "0x1ABC9C" },
+  { "id": "wed_04", "day": "wed", "time": "14:20", "subject": "IOT 프로그래밍", "period": null, "color": "0xE74C3C" },
+  { "id": "thu_01", "day": "thu", "time": "09:20", "subject": "객체지향언어", "period": null, "color": "0x9B59B6" },
+  { "id": "thu_02", "day": "thu", "time": "13:20", "subject": "모바일프로그래밍", "period": null, "color": "0xE67E22" },
+  { "id": "fri_01", "day": "fri", "time": "09:20", "subject": "자료구조", "period": "1차시", "color": "0xF39C12" },
+  { "id": "fri_02", "day": "fri", "time": "10:20", "subject": "자료구조", "period": "2차시", "color": "0xF39C12" },
+  { "id": "fri_03", "day": "fri", "time": "11:20", "subject": "자료구조", "period": "3차시", "color": "0xF39C12" },
+  { "id": "fri_04", "day": "fri", "time": "12:20", "subject": "자료구조", "period": "4차시", "color": "0xF39C12" },
+  { "id": "fri_05", "day": "fri", "time": "14:20", "subject": "디자인 씽킹", "period": null, "color": "0x34495E" }
+]
