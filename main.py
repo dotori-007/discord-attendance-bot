@@ -53,14 +53,9 @@ async def on_ready():
 # ==========================================
 async def main():
     async with bot:
-        # Cogs 등록
+        # Cogs 등록 (Cogs 등록 시 슬래시 커맨드가 트리에 자동 등록됨)
         await bot.add_cog(attendance_cog)
         await bot.add_cog(monitoring_cog)
-        
-        # 슬래시 커맨드 트리 연결
-        bot.tree.add_command(monitoring_cog.test_command)
-        bot.tree.add_command(monitoring_cog.status_command)
-        bot.tree.add_command(attendance_cog.schedule_group)
 
         # 봇 실행
         await bot.start(config.bot_token)

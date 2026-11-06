@@ -1,6 +1,6 @@
 import os
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional
 try:
     from dotenv import load_dotenv
@@ -25,7 +25,7 @@ class BotConfig:
     bot_token: str
     target_user_id: int
     timezone: str = "Asia/Seoul"
-    reboot_check: RebootConfig = RebootConfig()
+    reboot_check: RebootConfig = field(default_factory=RebootConfig)
     ucheck_url: str = "https://ucheck.plus"
     pre_reminder_minutes: int = 0  # 0: 수업 시작 정각만, >0: 시작 N분 전 사전 알림
 
